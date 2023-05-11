@@ -1,0 +1,100 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: lightgray;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.login{
+    background: lightgray;
+}
+.signup{
+    padding: 16px;
+}
+
+input[type=text], input[type=email], input[type=password]{
+    width: 30%;
+    height: 5px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    outline: none;
+    background-color: aquamarine;
+}
+
+input[type=text]:focus, input[type=email]:focus, input[type=password]:focus{
+    background-color: aliceblue;
+    outline: none;
+}
+
+input[type="submit"]{
+    background-color: blue;
+    color:gold;
+    padding: 16px 20px;
+    margin: 8px;
+    cursor: pointer;
+    width: 25%;
+    opacity: 0.9;
+}
+
+a{
+    color: blue;
+}
+
+input[type="submit"]:hover{
+    background: teal;
+    opacity: 1;
+
+}
+
+html{
+    color: goldenrod;
+    background-image: url(Plane.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.img_container{
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar{
+    width: 10%;
+    border-radius: 20%;
+}
+
+.site{
+    background-image: url(Plane.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: auto;
+    padding-top: 60px;
+    width: 100%;
+    height:100%;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+    position: fixed;
+}
+
+.site-content{
+    background-color: aliceblue;
+    margin: 5% auto 15% auto;
+    border: 1px solid lightgray;
+    width: 80%;
+}
+
+span.psw{
+    float: right;
+    padding-top: 16px;
+}
